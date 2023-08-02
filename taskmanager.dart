@@ -64,4 +64,12 @@ class TaskManager{
       taskList.removeAt(index);
     }
   }
+  bool isEmpty(){
+    if (taskList.length == 0){
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
 }
